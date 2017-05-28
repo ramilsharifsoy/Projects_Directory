@@ -6,3 +6,5 @@ Whether you shop from meticulously planned grocery lists or let whimsy guide you
 Instacart’s data science team plays a big part in providing this delightful shopping experience. Currently they use transactional data to develop models that predict which products a user will buy again, try for the first time, or add to their cart next during a session. Recently, Instacart open sourced this data - see their blog post on 3 Million Instacart Orders, Open Sourced.
 
 In this competition, Instacart is challenging the Kaggle community to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order.
+
+Project Link: https://www.kaggle.com/c/instacart-market-basket-analysis
