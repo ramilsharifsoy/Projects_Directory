@@ -2,7 +2,8 @@ Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 # Bank Marketing Dataset
 
-# The classification goal is to predict if the client will subscribe a term deposit.
+### The classification goal is to predict if the client will subscribe a term deposit
+### KEYWORDS: Directed  Marketing, Data  Mining,  Contact  Management, Targeting 
 
 Sources Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012. The full dataset was described and analyzed in:
 
