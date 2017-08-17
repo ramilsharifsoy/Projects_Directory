@@ -2,27 +2,15 @@ Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 ### Bank Marketing Dataset
 
-  This dataset is public available for research. The details are described in [Moro et al., 2011]. 
-  Please include this citation if you plan to use this database:
-
-  [Moro et al., 2011] S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. 
-  In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, Portugal, October, 2011. EUROSIS.
-
-  Available at: [pdf] http://hdl.handle.net/1822/14838
-                [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
-
 1. Title: Bank Marketing
-
-2. Sources
-   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012
-   
-3. Past Usage:
-
-  The full dataset was described and analyzed in:
+2. Sources Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012
+3. Past Usage: The full dataset was described and analyzed in:
 
   S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. 
-  In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, 
-  Portugal, October, 2011. EUROSIS.
+  In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, Portugal, October, 2011. EUROSIS.
+  
+    Available at: [pdf] http://hdl.handle.net/1822/14838
+                  [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
 
 4. Relevant Information:
 
@@ -46,7 +34,7 @@ Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
    For more information, read [Moro et al., 2011].
 
    Input variables:
-   # bank client data:
+   - bank client data:
    1 - age (numeric)
    2 - job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
                                        "blue-collar","self-employed","retired","technician","services") 
@@ -56,12 +44,12 @@ Data Source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
    6 - balance: average yearly balance, in euros (numeric) 
    7 - housing: has housing loan? (binary: "yes","no")
    8 - loan: has personal loan? (binary: "yes","no")
-   # related with the last contact of the current campaign:
+   - related with the last contact of the current campaign:
    9 - contact: contact communication type (categorical: "unknown","telephone","cellular") 
   10 - day: last contact day of the month (numeric)
   11 - month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
   12 - duration: last contact duration, in seconds (numeric)
-   # other attributes:
+   - other attributes:
   13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
   14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
   15 - previous: number of contacts performed before this campaign and for this client (numeric)
